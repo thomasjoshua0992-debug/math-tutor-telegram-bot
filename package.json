@@ -1,0 +1,17 @@
+{
+  "name": "math-tutor-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that solves math problems step by step, no external AI required.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mathjs": "^13.0.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
